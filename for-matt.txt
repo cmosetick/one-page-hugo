@@ -1,0 +1,16 @@
+mkdir /path/to/my/site
+cd /path/to/my/site
+hugo new site $PWD -b http://hugo.joyent.cf
+git init
+mkdir themes
+git submodule add https://github.com/key-amb/hugo-theme-bootie-docs.git themes/bootie-docs
+git submodule add https://github.com/mmrath/hugo-bootstrap.git themes/hugo-bootstrap
+
+# create/edit a page in `content` directory
+
+nano content/single.md
+hugo server -t hugo-bootstrap
+
+
+Open your web browser to:
+http://localhost:1313/single/

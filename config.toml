@@ -1,0 +1,6 @@
+baseurl = "http://hugo.joyent.cf"
+languageCode = "en-us"
+title = "hugo.joyent.cf"
+MetaDataFormat = "yaml"
+copyright = "Copyright (C) 2016 Joyent Inc."
+canonifyurls = true

@@ -1,0 +1,6 @@
+[submodule "themes/hugo-bootstrap"]
+	path = themes/hugo-bootstrap
+	url = https://github.com/mmrath/hugo-bootstrap.git
+[submodule "themes/bootie-docs"]
+	path = themes/bootie-docs
+	url = https://github.com/key-amb/hugo-theme-bootie-docs.git
